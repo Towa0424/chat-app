@@ -1,0 +1,32 @@
+/*=================================
+side_bar 
+==================================*/
+.side_bar_header{
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+}
+.side_bar_chat_rooms{
+  height: calc(100% - 100px); 
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+/*=================================
+main_chat
+==================================*/
+.main_chat_header{
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+.main_chat_space{
+  height: calc(100% - 190px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+}
+.main_chat_post{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
