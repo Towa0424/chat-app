@@ -5,11 +5,34 @@ side_bar
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user_name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.new_chat_btn a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightgray;
+  padding: 14px;
+  text-decoration: none;
+}
+.chat_room_name{
+  padding: 20px 0 40px;
+}
+.chat_room_name a{
+  color: white;
+  text-decoration: none;
 }
 .side_bar_chat_rooms{
   height: calc(100% - 100px); 
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
 }
 
 /*=================================
