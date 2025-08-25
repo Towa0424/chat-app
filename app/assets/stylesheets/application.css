@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+   box-sizing: border-box;
+ }
+
+.wrapper{
+  display: flex;
+}
+.side_bar{
+  height: 100vh;
+  width: 300px;
+}
+.main_chat{
+  height: 100vh;
+  width: calc(100vw - 300px); 
+}
