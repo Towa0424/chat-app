@@ -5,13 +5,7 @@
   </div>
 </div>
 <div class="main_chat_space">
-  <div class="main_chat_content">
-    <div class="main_chat_wrapper">
-      <div class="main_chat_author_name">Tom</div>
-      <div class="main_chat_date">2020/3/31(Wed) 12:43:30</div>
-    </div>
-    <div class="main_chat_text">おはよう</div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 <%= form_with model: [@room, @message], html: {class: "form"},local: true do |f| %>
   <div class="main_chat_post_form">
